@@ -1,0 +1,84 @@
+<!-- ========== PUNTO 4 ========== -->
+<section class="punto" id="punto-4">
+    <h2>📊 4 — Evaluación Comparativa de Bajas y Costes</h2>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Escenario</th>
+                    <th>Muertos Aliados Estimados</th>
+                    <th>Muertos Alemanes Estimados</th>
+                    <th>Duración de la Guerra</th>
+                    <th>Coste Político</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>🔵 Real<br><span class="subtitulo">(Liberación Inmediata)</span></strong></td>
+                    <td><span class="tag tag-blue">~5.000</span> <span class="nota-pequena">(incl. FFI)</span></td>
+                    <td><span class="tag tag-red">3.200</span> + <span class="tag tag-yellow">12.800</span> prisioneros</td>
+                    <td><span class="tag tag-yellow">Hasta mayo 1945</span></td>
+                    <td><span class="tag tag-green">Bajo</span> — De Gaulle consolida su poder</td>
+                </tr>
+                <tr>
+                    <td><strong>🟡 Alternativa A<br><span class="subtitulo">(Bypass Total)</span></strong></td>
+                    <td><span class="tag tag-red">10.000 – 20.000</span> <span class="nota-pequena">(masacre Resistencia + posible destrucción de París)</span></td>
+                    <td><span class="tag tag-red">5.000 – 10.000</span></td>
+                    <td><span class="tag tag-green">Posiblemente 2–4 semanas más corta</span></td>
+                    <td><span class="tag tag-red">Altísimo</span> — caos político, París en ruinas</td>
+                </tr>
+                <tr>
+                    <td><strong>🟠 Alternativa B<br><span class="subtitulo">(Intervención Tardía)</span></strong></td>
+                    <td><span class="tag tag-yellow">7.000 – 12.000</span> <span class="nota-pequena">(Resistencia diezmada)</span></td>
+                    <td><span class="tag tag-red">4.000 – 6.000</span></td>
+                    <td><span class="tag tag-yellow">Similar a la real</span></td>
+                    <td><span class="tag tag-yellow">Alto</span> — pérdida de legitimidad de De Gaulle</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Tarjetas resumen de cada escenario -->
+    <div class="grid-2col">
+        <div class="card highlight-blue">
+            <h3>🔵 Escenario Real <span class="badge-ok">Ejecutado</span></h3>
+            <ul>
+                <li><strong>Muertos Aliados</strong> ~5.000</li>
+                <li><strong>Muertos Alemanes</strong> 3.200 + 12.800 prisioneros</li>
+                <li><strong>Duración</strong> Hasta mayo 1945</li>
+                <li><strong>Coste político</strong> <span class="tag tag-green">Bajo</span></li>
+                <li class="conclusion">✅ De Gaulle consolida su poder. París intacta.</li>
+            </ul>
+        </div>
+        <div class="card highlight-red">
+            <h3>🟡 Alternativa A <span class="badge-danger">Bypass Total</span></h3>
+            <ul>
+                <li><strong>Muertos Aliados</strong> 10.000 – 20.000</li>
+                <li><strong>Muertos Alemanes</strong> 5.000 – 10.000</li>
+                <li><strong>Duración</strong> 2–4 semanas más corta</li>
+                <li><strong>Coste político</strong> <span class="tag tag-red">Altísimo</span></li>
+                <li class="conclusion">⚠️ París destruida, Resistencia masacrada.</li>
+            </ul>
+        </div>
+        <div class="card highlight-yellow">
+            <h3>🟠 Alternativa B <span class="badge-warn">Intervención Tardía</span></h3>
+            <ul>
+                <li><strong>Muertos Aliados</strong> 7.000 – 12.000</li>
+                <li><strong>Muertos Alemanes</strong> 4.000 – 6.000</li>
+                <li><strong>Duración</strong> Similar a la real</li>
+                <li><strong>Coste político</strong> <span class="tag tag-yellow">Alto</span></li>
+                <li class="conclusion">⚠️ Pérdida de legitimidad de De Gaulle.</li>
+            </ul>
+        </div>
+        <div class="card highlight-dark">
+            <h3>📌 Conclusión Estratégica</h3>
+            <ul>
+                <li><strong>Militarmente</strong> ❌ La liberación fue de escasa importancia.</li>
+                <li><strong>Políticamente</strong> ✅ Fue absolutamente necesaria.</li>
+                <li><strong>Lección</strong> La guerra también se gana con legitimidad.</li>
+                <li class="conclusion">💡 La decisión de Eisenhower fue la correcta en su contexto.</li>
+            </ul>
+        </div>
+    </div>
+</section>
