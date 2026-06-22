@@ -9,7 +9,7 @@ Decisiones de Guerra que cambiaron el trascurso de la Segunda Guerra Mundial.
 
  * *Los [Estadounidenses](https://github.com/yoqer/Guerras/blob/main/Gaulle.md) que antes de asaltar Paris por una desobediencia del Mando Frances, querian atacar Alemania directamente:*
 
- -Optaban por un frente amplio en la frontera y combinar en todo el, usos de recursos y de todas las fuerzas de Aliados.
+ -Optaban por un frente amplio en la frontera y combinar en todo el, usos de recursos y de todas las fuerzas de [Aliados.](https://github.com/yoqer/Guerras/blob/main/Aliados.md)
 
 
 ____________________________________________________________________
