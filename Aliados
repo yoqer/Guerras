@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desembarcos Aliados y Bajas en la Segunda Guerra Mundial</title>
+    <style>
+        /* ======== ESTILOS GENERALES ======== */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f2f5;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 24px;
+            color: #1a2a4a;
+            border-left: 5px solid #2a6f97;
+            padding-left: 15px;
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1a2a4a;
+            margin: 30px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #dce3ed;
+        }
+        /* ======== TABLAS ======== */
+        .table-wrap {
+            overflow-x: auto;
+            margin: 15px 0 30px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th {
+            background: #1a2a4a;
+            color: white;
+            padding: 10px 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        tr:hover td {
+            background: #f8fafc;
+        }
+        /* ======== ETIQUETAS ======== */
+        .tag {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .tag-green { background: #d4edda; color: #155724; }
+        .tag-red { background: #f8d7da; color: #721c24; }
+        .tag-yellow { background: #fff3cd; color: #856404; }
+        .tag-blue { background: #cce5ff; color: #004085; }
+        .tag-gray { background: #e2e8f0; color: #1a2a4a; }
+        /* ======== TARJETAS ======== */
+        .grid-2col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #e2e8f0;
+        }
+        .card h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #0b2b44;
+            margin-bottom: 12px;
+        }
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .card ul li {
+            padding: 6px 0;
+            border-bottom: 1px solid #edf2f7;
+            font-size: 14px;
+            color: #1e293b;
+        }
+        .card ul li:last-child {
+            border-bottom: none;
+        }
+        .highlight-red { background: #fde8e8; border-left: 4px solid #b33c3c; }
+        .highlight-blue { background: #e6f0fa; border-left: 4px solid #2a6f97; }
+        .highlight-dark { background: #eef2f7; border-left: 4px solid #1a2a4a; }
+        /* ======== RESPONSIVE ======== */
+        @media (max-width: 700px) {
+            .grid-2col {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1>🌍 Desembarcos Aliados y Bajas en la Segunda Guerra Mundial</h1>
+
+    <!-- ===================================================== -->
+    <!-- CUADRO 1: DESEMBARCOS ALIADOS Y BAJAS POR OPERACIÓN    -->
+    <!-- ===================================================== -->
+    <div class="section-title">📋 Cuadro 1 — Desembarcos Aliados y Bajas</div>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Operación / Frente</th>
+                    <th>Fecha</th>
+                    <th>Fuerzas Aliadas</th>
+                    <th>Divisiones Aliadas</th>
+                    <th>Bajas Aliadas</th>
+                    <th>Bajas del Eje</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Operación Torch</strong><br><span style="font-size:12px;color:#555;">(Norte de África)</span></td>
+                    <td>8-16 nov 1942</td>
+                    <td>~107.000</td>
+                    <td>No especificado</td>
+                    <td><span class="tag tag-red">~972-1.100</span> muertos</td>
+                    <td><span class="tag tag-yellow">~650</span> muertos (Francia de Vichy)</td>
+                </tr>
+                <tr>
+                    <td><strong>Invasión de Sicilia</strong><br><span style="font-size:12px;color:#555;">(Operación Husky)</span></td>
+                    <td>9 jul - 17 ago 1943</td>
+                    <td>~181.000<br><span style="font-size:11px;color:#555;">(115.000 británicos, 66.000 EE.UU.)</span></td>
+                    <td>Múltiples</td>
+                    <td><span class="tag tag-red">2.237</span> muertos · <span class="tag tag-yellow">6.544</span> heridos</td>
+                    <td><span class="tag tag-red">29.000</span> muertos/heridos · <span class="tag tag-yellow">140.000</span> prisioneros</td>
+                </tr>
+                <tr>
+                    <td><strong>Desembarco de Anzio</strong><br><span style="font-size:12px;color:#555;">(Operación Shingle)</span></td>
+                    <td>22 ene 1944</td>
+                    <td>~50.000</td>
+                    <td>No especificado</td>
+                    <td><span class="tag tag-red">~43.000</span> (incluye prisioneros)</td>
+                    <td>No especificado</td>
+                </tr>
+                <tr>
+                    <td><strong>Operación Overlord</strong><br><span style="font-size:12px;color:#555;">(Normandía)</span></td>
+                    <td>6 jun - 30 ago 1944</td>
+                    <td><strong>Día D:</strong> ~156.000<br><strong>Total:</strong> ~3.000.000</td>
+                    <td>39 divisiones aliadas</td>
+                    <td><span class="tag tag-red">~200.000</span> (37.000 muertos)</td>
+                    <td><span class="tag tag-red">400.000 – 450.000</span> (55.000-60.000 muertos)</td>
+                </tr>
+                <tr>
+                    <td><strong>Operación Dragoon</strong><br><span style="font-size:12px;color:#555;">(Sur de Francia)</span></td>
+                    <td>15 ago 1944</td>
+                    <td>85.000 – 100.000</td>
+                    <td>3 estadounidenses, 2 francesas</td>
+                    <td><span class="tag tag-red">~961</span> muertos</td>
+                    <td>No especificado</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- ===================================================== -->
+    <!-- CUADRO 2: BAJAS TOTALES EN LOS GRANDES FRENTES         -->
+    <!-- ===================================================== -->
+    <div class="section-title">⚔️ Cuadro 2 — Bajas Totales en los Grandes Frentes</div>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Frente / País</th>
+                    <th>Bajas Totales (Aprox.)</th>
+                    <th>Notas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Frente Occidental</strong><br><span style="font-size:12px;color:#555;">(Aliados vs. Alemania)</span></td>
+                    <td><span class="tag tag-red">43.110</span> muertos alemanes (1940-42)<br><span class="tag tag-red">129.463</span> muertos alemanes (1943-45)</td>
+                    <td>Incluye bajas alemanas en toda la campaña del oeste de Europa.</td>
+                </tr>
+                <tr>
+                    <td><strong>Frente Oriental</strong><br><span style="font-size:12px;color:#555;">(URSS vs. Alemania)</span></td>
+                    <td><span class="tag tag-red">URSS:</span> 26,6 millones de muertos (civiles y militares)<br><span class="tag tag-red">Alemania:</span> ~4,8 millones de bajas militares</td>
+                    <td>El frente más sangriento de la guerra. El 80% de los soldados alemanes muertos en combate cayeron aquí.</td>
+                </tr>
+                <tr>
+                    <td><strong>Italia</strong><br><span style="font-size:12px;color:#555;">(Campaña)</span></td>
+                    <td><span class="tag tag-red">9.003</span> muertos del Eje<br><span style="font-size:12px;color:#555;">(4.678 alemanes, 4.325 italianos)</span></td>
+                    <td>Bajas significativas en ambos bandos durante la invasión aliada.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- ===================================================== -->
+    <!-- TARJETAS RESUMEN DE TOTALES GLOBALES                  -->
+    <!-- ===================================================== -->
+    <div class="section-title">📊 Totales Globales de la Guerra</div>
+
+    <div class="grid-2col">
+        <div class="card highlight-red">
+            <h3>💀 Bajas Militares</h3>
+            <ul>
+                <li><strong>Alemania:</strong> ~5,3 millones de bajas militares</li>
+                <li><strong>URSS:</strong> ~8,7 millones de bajas militares</li>
+                <li><strong>Total de muertos en la guerra:</strong> 70 – 85 millones</li>
+            </ul>
+        </div>
+        <div class="card highlight-blue">
+            <h3>📌 Datos Clave</h3>
+            <ul>
+                <li><strong>Frente Oriental:</strong> 80% de los soldados alemanes muertos en combate.</li>
+                <li><strong>Desembarco de Normandía:</strong> 3 millones de soldados aliados desembarcaron.</li>
+                <li><strong>Operación Dragoon:</strong> 85.000 – 100.000 soldados desembarcaron en el sur de Francia.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Nota final -->
+    <div style="margin-top:30px; padding:12px 16px; background:#f1f5f9; border-radius:10px; font-size:13px; color:#1e293b; border-left:4px solid #1a2a4a;">
+        <strong>🧠 Nota:</strong> Las cifras de bajas varían según las fuentes históricas. Se han tomado las estimaciones más aceptadas por los historiadores.
+    </div>
+
+</div>
+</body>
+</html>
