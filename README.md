@@ -3,10 +3,10 @@ Decisiones de Guerra que cambiaron el trascurso de la Segunda Guerra Mundial.
 
 # -Que hubiera ocurrido si una IA hubiera decidido. Le preguntamos tras contarnos la historia sobre el asalto a Alemania y las decisiones controvertidas y un plan distinto al que ninguno planteaba asi.
 
-* *Los Franceses planteaban:*  Cruzar el Puente tomado y seguir una estrategia favorable en toda la Guerra en Francia de Bolsa Envolvente y Estrangulamiento.
+* *Los Franceses planteaban:*  -Cruzar el Puente tomado y seguir una estrategia favorable en toda la Guerra en Francia de Bolsa Envolvente y Estrangular.
 
  * *Los Estadounidenses que antes de asaltar Paris por una desobediencia del Mando Frances, querian atacar Alemania directamente:*
-Optaban por un frente amplio en la frontera y combinar en todo el, usos de recursos y de todas las fuerzas Aliadas.
+-Optaban por un frente amplio en la frontera y combinar en todo el, usos de recursos y de todas las fuerzas de Aliados.
 
 
 ____________________________________________________________________
