@@ -1,0 +1,43 @@
+<!-- ========== PUNTO 3 ========== -->
+<section class="punto" id="punto-3">
+    <h2>🌍 3 — El Contexto Más Amplio: Los Frentes en Agosto de 1944</h2>
+
+    <!-- Subapartado 3.1 -->
+    <h3>3.1 — Frente del Sur (Operación Dragoon)</h3>
+    <div class="card highlight-blue" style="margin-bottom: 20px;">
+        <ul>
+            <li><strong>Fecha:</strong> 15 de agosto de 1944.</li>
+            <li><strong>Fuerzas:</strong> 7º Ejército estadounidense y 1er Ejército Francés (de Lattre) desembarcaron en la Provenza.</li>
+            <li><strong>Avance:</strong> Su avance fue tan rápido que para finales de agosto ya habían liberado Marsella y Tolón, y avanzaban hacia el valle del Ródano.</li>
+            <li><strong>Impacto:</strong> Este frente <strong>no se vio afectado por la decisión de liberar París</strong>, ya que operaba de forma independiente.</li>
+        </ul>
+    </div>
+
+    <!-- Subapartado 3.2 -->
+    <h3>3.2 — Frente del Centro (Patton)</h3>
+    <div class="card highlight-yellow" style="margin-bottom: 20px;">
+        <ul>
+            <li><strong>Posición:</strong> Patton ya había cruzado el Sena el 23 de agosto y avanzaba hacia el este.</li>
+            <li><strong>Efecto de París:</strong> La decisión de desviar a la 4ª División de Infantería hacia París <strong>ralentizó ligeramente su avance</strong>, pero no detuvo su impulso. Para el 30 de agosto, Patton ya estaba en Reims.</li>
+        </ul>
+    </div>
+
+    <!-- Subapartado 3.3 -->
+    <h3>3.3 — Frente del Norte (Montgomery)</h3>
+    <div class="card highlight-blue" style="margin-bottom: 20px;">
+        <ul>
+            <li><strong>Posición:</strong> Montgomery presionaba desde el norte tras el cierre de la Bolsa de Falaise (21 de agosto).</li>
+            <li><strong>Avance posterior:</strong> Su avance hacia Bélgica y los Países Bajos comenzó a principios de septiembre, con la Operación Market Garden (17 de septiembre).</li>
+        </ul>
+    </div>
+
+    <!-- Subapartado 3.4 -->
+    <h3>3.4 — Consecuencias para el Frente Alemán</h3>
+    <div class="card highlight-red" style="margin-bottom: 20px;">
+        <ul>
+            <li><strong>Impacto:</strong> La liberación de París <strong>no tuvo un impacto militar decisivo</strong> en la retirada alemana.</li>
+            <li><strong>Rendición:</strong> Von Choltitz rindió la ciudad con 12.800 prisioneros, pero la mayor parte del ejército alemán ya había escapado hacia el este.</li>
+            <li><strong>Oportunidad perdida:</strong> La verdadera oportunidad perdida fue <strong>no haber cruzado el Rin en noviembre de 1944</strong>.</li>
+        </ul>
+    </div>
+</section>
