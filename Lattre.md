@@ -1,4 +1,4 @@
-  #  De Lattre, al Mando del Ejército tras huir de la captura en prision, por oposición al régimen Alemán, pese ha haber aceptado la Republica de Vichy.
+  #  De Lattre, al Mando del Ejército tras huir de la captura en prision, por oposición al régimen Alemán, pese ha haber colaborado con la Republica de Vichy, en Francia.
 
 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
