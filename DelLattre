@@ -1,0 +1,82 @@
+<!-- ========== EVALUACIÓN DE BAJAS Y RESULTADOS (HIPOTÉTICO VS REAL) ========== -->
+<section class="punto" id="evaluacion-bajas-rin">
+    <h2>📊 Evaluación de Bajas y Resultados (Hipotético vs Real)</h2>
+    <p style="margin-bottom: 20px; color: #1e293b; font-size: 15px;">
+        Comparativa entre la estrategia real de Eisenhower (desviar al 7º Ejército hacia el Sarre) y la estrategia alternativa 
+        propuesta por Devers (cruzar el Rin por Kehl y avanzar hacia Stuttgart).
+    </p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Aspecto</th>
+                    <th>Estrategia Real (Eisenhower)</th>
+                    <th>Estrategia Alternativa (Rin Sur)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Bajas Aliadas</strong><br><span style="font-size:12px;color:#555;">(dic 1944 - may 1945)</span></td>
+                    <td><span class="tag tag-red">80.000 – 100.000</span> muertos en las Ardenas, Alsacia y Sarre</td>
+                    <td><span class="tag tag-green">Reducción estimada del 40-50%</span> al evitar la Bolsa de Colmar y las Ardenas</td>
+                </tr>
+                <tr>
+                    <td><strong>Bajas Alemanas</strong></td>
+                    <td><span class="tag tag-red">100.000</span> muertos y <span class="tag tag-yellow">300.000</span> prisioneros en el mismo periodo</td>
+                    <td><span class="tag tag-yellow">Prisioneros masivos:</span> 200.000 – 300.000 al quedar atrapados sin suministros</td>
+                </tr>
+                <tr>
+                    <td><strong>Duración de la Guerra</strong></td>
+                    <td><span class="tag tag-yellow">Hasta mayo de 1945</span></td>
+                    <td><span class="tag tag-green">Posible final en febrero-marzo de 1945</span>, al colapsar el frente sur alemán</td>
+                </tr>
+                <tr>
+                    <td><strong>Riesgos</strong></td>
+                    <td>Alto desgaste en invierno, fracaso en el Sarre</td>
+                    <td>Riesgo de contraataque alemán desde el norte, pero con superioridad aérea se podía contener</td>
+                </tr>
+                <tr>
+                    <td><strong>Coste Político</strong></td>
+                    <td>Tensión con De Gaulle por Estrasburgo</td>
+                    <td>Menor tensión, ya que la ciudad quedaría asegurada por el avance</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Tarjetas resumen de cada estrategia -->
+    <div class="grid-2col" style="margin-top: 20px;">
+        <div class="card highlight-red">
+            <h3>🔴 Estrategia Real (Eisenhower)</h3>
+            <ul>
+                <li><strong>Bajas Aliadas:</strong> 80.000 – 100.000 muertos</li>
+                <li><strong>Bajas Alemanas:</strong> 100.000 muertos + 300.000 prisioneros</li>
+                <li><strong>Duración:</strong> Hasta mayo de 1945</li>
+                <li><strong>Coste Político:</strong> <span class="tag tag-yellow">Alto</span> (tensión con De Gaulle)</li>
+                <li class="conclusion">⚠️ Desgaste extremo en invierno y combates urbanos.</li>
+            </ul>
+        </div>
+        <div class="card highlight-green">
+            <h3>🟢 Estrategia Alternativa (Rin Sur)</h3>
+            <ul>
+                <li><strong>Bajas Aliadas:</strong> <span class="tag tag-green">Reducción del 40-50%</span></li>
+                <li><strong>Bajas Alemanas:</strong> 200.000 – 300.000 prisioneros</li>
+                <li><strong>Duración:</strong> <span class="tag tag-green">Posible final en febrero-marzo de 1945</span></li>
+                <li><strong>Coste Político:</strong> <span class="tag tag-green">Bajo</span> (Estrasburgo asegurada)</li>
+                <li class="conclusion">✅ Aprovecha la debilidad alemana y la superioridad aérea.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Conclusión final -->
+    <div class="card highlight-dark" style="margin-top: 20px;">
+        <h3>📌 Conclusión Estratégica</h3>
+        <ul>
+            <li><strong>Decisión óptima:</strong> Cruce del Rin en Kehl y avance hacia Stuttgart en noviembre de 1944.</li>
+            <li><strong>Beneficios:</strong> Salvaba decenas de miles de vidas, evitaba la Bolsa de Colmar y probablemente acortaba la guerra en 2 o 3 meses.</li>
+            <li><strong>Obstáculo:</strong> Eisenhower priorizó la seguridad y el "frente amplio" frente a la oportunidad táctica.</li>
+            <li class="conclusion">💡 La guerra no se gana solo con estrategia; también con política. La cautela de Eisenhower primó sobre la oportunidad de Devers.</li>
+        </ul>
+    </div>
+</section>
