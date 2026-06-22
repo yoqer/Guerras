@@ -20,7 +20,7 @@ Rumbo y Aprovechamiento de la Victoria
 
 El plan de batalla era claro: las tropas estadounidenses avanzarían hacia el norte por el valle del Ródano, mientras que las francesas se encargarían de los objetivos clave en la costa: Toulon y Marsella .
 
-· La Decisión Audaz de de Lattre: Inicialmente, el plan preveía atacar Toulon semanas después. Pero el 18 de agosto, de Lattre, viendo la debilidad alemana, decidió lanzar el asalto de inmediato para no dar tiempo al enemigo a atrincherarse . Con apenas 16.000 hombres y 30 tanques se enfrentó a una guarnición alemana de 25.000 soldados fuertemente atrincherados en los puertos, que Hitler había declarado "fortalezas" que debían resistir hasta el final .
+· La Decisión Audaz de de Lattre: Inicialmente, el plan preveía atacar Toulon semanas después. Pero el 18 de agosto, de Lattre, viendo la debilidad alemana, decidió lanzar el asalto de inmediato para no dar tiempo al enemigo a atrincherarse . Con apenas 16.000 hombres y 30 tanques se enfrentó a una guarnición alemana de 25.000 soldados fuertemente atrincherados en los puertos, que Hitler había declarado ["fortalezas"](https://github.com/yoqer/Guerras/blob/main/FortalezaCherbourg.md) que debían resistir hasta el final .
 
 · La Captura Récord de los Puertos: A pesar de la inferioridad numérica, la rapidez de la maniobra y el apoyo de la Resistencia (FFI) dieron sus frutos. La batalla fue encarnizada, pero las tropas francesas, incluyendo la 1ª División Blindada, las divisiones de infantería y los grupos de tabores marroquíes, lograron una victoria fulminante .
  
