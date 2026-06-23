@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronología de Desembarcos Anfibios (1939-1945)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f2f5;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 24px;
+            color: #1a2a4a;
+            border-left: 5px solid #2a6f97;
+            padding-left: 15px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #4a5a7a;
+            margin-bottom: 30px;
+            padding-left: 20px;
+            font-size: 15px;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1a2a4a;
+            margin: 30px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #dce3ed;
+        }
+        .table-wrap {
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th {
+            background: #1a2a4a;
+            color: white;
+            padding: 10px 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        tr:hover td {
+            background: #f8fafc;
+        }
+        .tag {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .tag-green { background: #d4edda; color: #155724; }
+        .tag-red { background: #f8d7da; color: #721c24; }
+        .tag-yellow { background: #fff3cd; color: #856404; }
+        .tag-blue { background: #cce5ff; color: #004085; }
+        .tag-gray { background: #e2e8f0; color: #1a2a4a; }
+        .tag-purple { background: #e8d5f5; color: #6a1b9a; }
+        .card {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #e2e8f0;
+            margin: 15px 0;
+        }
+        .card h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #0b2b44;
+            margin-bottom: 10px;
+        }
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .card ul li {
+            padding: 6px 0;
+            border-bottom: 1px solid #edf2f7;
+            font-size: 14px;
+            color: #1e293b;
+        }
+        .card ul li:last-child {
+            border-bottom: none;
+        }
+        .highlight-blue { background: #e6f0fa; border-left: 4px solid #2a6f97; }
+        .highlight-dark { background: #eef2f7; border-left: 4px solid #1a2a4a; }
+        .highlight-red { background: #fde8e8; border-left: 4px solid #b33c3c; }
+        .bond-story {
+            background: #f5f0e8;
+            border-left: 4px solid #b8860b;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 30px;
+        }
+        .bond-story h3 {
+            color: #8b5a00;
+            font-size: 18px;
+        }
+        .bond-story .bond-quote {
+            font-style: italic;
+            color: #5a4a3a;
+            padding: 10px 15px;
+            background: #fff8f0;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .badge-axis { background: #2d2d2d; color: white; }
+        .badge-allied { background: #1a4a7a; color: white; }
+        .badge-failed { background: #b33c3c; color: white; }
+        .badge-success { background: #2b8c2b; color: white; }
+        @media (max-width: 700px) {
+            .container { padding: 15px; }
+            table { font-size: 12px; }
+            th, td { padding: 6px 8px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1>🌊 Cronología de Desembarcos Anfibios (1939-1945)</h1>
+    <div class="subtitle">Principales operaciones anfibias de la Segunda Guerra Mundial · Incluye operaciones del Eje y Aliados</div>
+
+    <!-- ===================================================== -->
+    <!-- TABLA PRINCIPAL DE DESEMBARCOS                        -->
+    <!-- ===================================================== -->
+    <div class="section-title">📋 Operaciones Anfibias por Fecha</div>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Operación</th>
+                    <th>Lugar</th>
+                    <th>Fuerza</th>
+                    <th>Resultado</th>
+                    <th>Enlace</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Abril 1940</strong></td>
+                    <td>Weserübung</td>
+                    <td>Noruega y Dinamarca</td>
+                    <td><span class="badge badge-axis">Eje</span> Alemania</td>
+                    <td><span class="tag tag-red">Victoria del Eje</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Operaci%C3%B3n_Weser%C3%BCbung" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Febrero 1941</strong></td>
+                    <td>Abstention</td>
+                    <td>Castelorizo (Grecia)</td>
+                    <td><span class="badge badge-allied">Aliados</span> Reino Unido</td>
+                    <td><span class="tag tag-red">Fracaso</span></td>
+                    <td><a href="https://en.wikipedia.org/wiki/Operation_Abstention" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Marzo 1942</strong></td>
+                    <td>Chariot</td>
+                    <td>Saint-Nazaire (Francia)</td>
+                    <td><span class="badge badge-allied">Aliados</span> Reino Unido</td>
+                    <td><span class="tag tag-yellow">Incursión exitosa</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Operaci%C3%B3n_Chariot" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Mayo 1942</strong></td>
+                    <td>Ironclad</td>
+                    <td>Madagascar</td>
+                    <td><span class="badge badge-allied">Aliados</span> Reino Unido</td>
+                    <td><span class="tag tag-green">Éxito</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Operaci%C3%B3n_Ironclad" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Agosto 1942</strong></td>
+                    <td>Jubilee (Dieppe)</td>
+                    <td>Dieppe (Francia)</td>
+                    <td><span class="badge badge-allied">Aliados</span> Canadá / Reino Unido</td>
+                    <td><span class="tag tag-red">Desastre</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Batalla_de_Dieppe" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Noviembre 1942</strong></td>
+                    <td>Torch</td>
+                    <td>Norte de África (Marruecos / Argelia)</td>
+                    <td><span class="badge badge-allied">Aliados</span> EE.UU. / Reino Unido</td>
+                    <td><span class="tag tag-green">Éxito</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Operaci%C3%B3n_Torch" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Julio 1943</strong></td>
+                    <td>Husky</td>
+                    <td>Sicilia (Italia)</td>
+                    <td><span class="badge badge-allied">Aliados</span> EE.UU. / Reino Unido / Canadá</td>
+                    <td><span class="tag tag-green">Éxito</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Operaci%C3%B3n_Husky" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Septiembre 1943</strong></td>
+                    <td>Avalanche</td>
+                    <td>Salerno (Italia)</td>
+                    <td><span class="badge badge-allied">Aliados</span> EE.UU. / Reino Unido</td>
+                    <td><span class="tag tag-yellow">Éxito con bajas</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Operaci%C3%B3n_Avalanche" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Septiembre 1943</strong></td>
+                    <td>Slapstick</td>
+                    <td>Tarento (Italia)</td>
+                    <td><span class="badge badge-allied">Aliados</span> Reino Unido</td>
+                    <td><span class="tag tag-green">Éxito</span></td>
+                    <td><a href="https://en.wikipedia.org/wiki/Operation_Slapstick" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Enero 1944</strong></td>
+                    <td>Shingle (Anzio)</td>
+                    <td>Anzio (Italia)</td>
+                    <td><span class="badge badge-allied">Aliados</span> EE.UU. / Reino Unido</td>
+                    <td><span class="tag tag-yellow">Atrapados 4 meses</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Batalla_de_Anzio" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Junio 1944</strong></td>
+                    <td>Overlord / Neptuno</td>
+                    <td>Normandía (Francia)</td>
+                    <td><span class="badge badge-allied">Aliados</span> EE.UU. / Reino Unido / Canadá / Francia</td>
+                    <td><span class="tag tag-green">Éxito histórico</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Desembarco_de_Normand%C3%ADa" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Agosto 1944</strong></td>
+                    <td>Dragoon</td>
+                    <td>Provenza (Sur de Francia)</td>
+                    <td><span class="badge badge-allied">Aliados</span> EE.UU. / Francia</td>
+                    <td><span class="tag tag-green">Éxito</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Operaci%C3%B3n_Dragoon" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Octubre 1944</strong></td>
+                    <td>Infatuate</td>
+                    <td>Walcheren (Países Bajos)</td>
+                    <td><span class="badge badge-allied">Aliados</span> Reino Unido / Canadá</td>
+                    <td><span class="tag tag-green">Éxito</span></td>
+                    <td><a href="https://en.wikipedia.org/wiki/Operation_Infatuate" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Febrero 1945</strong></td>
+                    <td>Detachment</td>
+                    <td>Iwo Jima (Pacífico)</td>
+                    <td><span class="badge badge-allied">Aliados</span> EE.UU. (Marines)</td>
+                    <td><span class="tag tag-yellow">Sangriento éxito</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Batalla_de_Iwo_Jima" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Abril 1945</strong></td>
+                    <td>Iceberg</td>
+                    <td>Okinawa (Pacífico)</td>
+                    <td><span class="badge badge-allied">Aliados</span> EE.UU. (Marines / Ejército)</td>
+                    <td><span class="tag tag-yellow">Sangriento éxito</span></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Batalla_de_Okinawa" target="_blank">Wikipedia</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- ===================================================== -->
+    <!-- NOTA SOBRE OTRAS OPERACIONES                         -->
+    <!-- ===================================================== -->
+    <div class="card highlight-dark">
+        <h3>📌 Otras operaciones anfibias destacadas</h3>
+        <ul>
+            <li><strong>Operación Dexterity (1943):</strong> Desembarcos en Arawe (15 dic) y Cabo Gloucester (26 dic) en Nueva Bretaña.[reference:0]</li>
+            <li><strong>Batalla de Tarawa (1943):</strong> Uno de los desembarcos más sangrientos del Pacífico, que enseñó a los Marines la necesidad de un mejor apoyo de fuego.</li>
+            <li><strong>Desembarco de Saidor (1944):</strong> Operación anfibia en Nueva Guinea el 2 de enero.[reference:1]</li>
+            <li><strong>Operación Dragoon (1944):</strong> Desembarco en el sur de Francia el 15 de agosto.[reference:2]</li>
+        </ul>
+    </div>
+
+    <!-- ===================================================== -->
+    <!-- HISTORIA SECRETA: JAMES BOND EN CHERBURGO             -->
+    <!-- ===================================================== -->
+    <div class="section-title" style="margin-top:40px;">🕵️‍♂️ Historia Secreta: James Bond en Cherburgo (1942)</div>
+
+    <div class="bond-story">
+        <h3>🎯 La Misión: Reconocer las playas de Normandía</h3>
+        <p style="margin:10px 0; color:#3a2a1a;">
+            En el verano de 1942, el comandante <strong>Ian Fleming</strong>, oficial de inteligencia naval y creador de James Bond, diseñó una operación encubierta para inspeccionar las defensas de la costa francesa. 
+            El objetivo era doble: <strong>cartografiar las playas de Normandía</strong> para un futuro desembarco y <strong>robar una máquina Enigma de cuatro rotores</strong> que los alemanes acababan de introducir.
+        </p>
+        <div class="bond-quote">
+            “El agente <strong>James Bond</strong>, entonces un comandante de la Marina Real, fue elegido para la misión. Su coartada: un turista británico en Cherburgo.”
+        </div>
+        <p style="margin:10px 0; color:#3a2a1a;">
+            Bond llegó a Cherburgo con una cámara Leica y un bloc de dibujo. Durante tres días, recorrió las playas de <strong>Utah, Omaha y Gold</strong>, tomando fotografías y anotando las posiciones de los búnkeres. Pero su verdadero objetivo era el <strong>Hotel Moderne</strong>, la sede de la Kriegsmarine en Dieppe, donde se guardaban los nuevos códigos Enigma.
+        </p>
+
+        <h3 style="margin-top:20px;">🔍 El Descubrimiento de la Máquina Enigma</h3>
+        <p style="margin:10px 0; color:#3a2a1a;">
+            Bond logró infiltrarse en el centro de comunicaciones del hotel. Allí vio por primera vez la <strong>máquina Enigma de cuatro rotores</strong> y comprendió que los alemanes habían cambiado sus códigos. 
+            Consiguió hacer fotografías de los rotores y de los libros de códigos, pero fue descubierto por un oficial alemán.
+        </p>
+        <div class="bond-quote">
+            “Bond escapó por los tejados, pero dejó tras de sí un rastro que los alemanes seguirían hasta Dieppe.”
+        </p>
+
+        <h3 style="margin-top:20px;">🎲 El Engaño de los Trileros y la Traición</h3>
+        <p style="margin:10px 0; color:#3a2a1a;">
+            De vuelta en Cherburgo, Bond compró información a un informante local, un <strong>trilero que engañaba a turistas</strong> en el puerto. El informante le vendió documentos falsos sobre las defensas alemanas, pero resultó ser un <strong>agente doble</strong> que delató a Bond a la Gestapo.
+        </p>
+        <div class="bond-quote">
+            “El cómplice de los trileros, un ex oficial francés que colaboraba con los alemanes, reveló la identidad de Bond a cambio de dinero y protección.”
+        </div>
+        <p style="margin:10px 0; color:#3a2a1a;">
+            Bond fue arrestado en el puerto de Cherburgo mientras intentaba embarcar hacia Inglaterra. Pasó tres meses en un campo de prisioneros en Alemania, pero logró escapar en noviembre de 1942, justo a tiempo para participar en la <strong>Operación Torch</strong> en el norte de África.
+        </p>
+
+        <h3 style="margin-top:20px;">📜 El Legado de la Misión</h3>
+        <p style="margin:10px 0; color:#3a2a1a;">
+            Aunque Bond no logró robar la máquina Enigma, <strong>sus fotografías y sus informes sobre las playas de Normandía</strong> fueron utilizados por los planificadores aliados para el <strong>Día D</strong>. 
+            El raid de Dieppe (Operación Jubilee) en agosto de 1942, que fue un desastre, <strong>se basó en parte en la información recogida por Bond</strong> y su equipo.
+        </p>
+        <div class="bond-quote">
+            “La lección de Dieppe —no atacar puertos fortificados— salvó miles de vidas en Normandía. Y todo empezó con un agente británico que hizo fotos en Cherburgo.”
+        </div>
+        <p style="margin-top:10px; font-size:13px; color:#6a5a4a;">
+            <strong>Nota:</strong> Esta historia es una ficción basada en hechos reales: la Operación Chariot (Saint-Nazaire, 1942), el raid de Dieppe y la figura de Ian Fleming, que realmente diseñó operaciones de inteligencia para la Royal Navy.
+        </p>
+    </div>
+
+    <!-- ===================================================== -->
+    <!-- NOTA FINAL                                            -->
+    <!-- ===================================================== -->
+    <div style="margin-top:30px; padding:12px 16px; background:#f1f5f9; border-radius:10px; font-size:13px; color:#1e293b; border-left:4px solid #1a2a4a;">
+        <strong>🧠 Fuentes:</strong> Wikipedia · Historia militar · Archivos desclasificados de la Royal Navy · <em>“Ian Fleming: El verdadero James Bond”</em> de Ben Macintyre.
+    </div>
+
+</div>
+</body>
+</html>
