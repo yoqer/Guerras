@@ -1,4 +1,6 @@
-Te presento un recorrido cronológico por los principales desembarcos anfibios aliados en la Segunda Guerra Mundial, incluyendo también las grandes operaciones del Eje. Es importante señalar que no existe ningún desembarco aliado en Cherburgo en 1942, aunque ese año sí hubo otras operaciones notables.
+Recorrido cronológico por los principales desembarcos anfibios aliados en la Segunda Guerra Mundial, incluyendo también las grandes operaciones del Eje.
+
+
 
 🌍 Cronología de Desembarcos y Asaltos Anfibios (1939-1945)
 
