@@ -1,4 +1,4 @@
-Basándome en todo el análisis histórico que hemos recorrido juntos —desde los desembarcos anfibios y las tensiones políticas entre De Gaulle y Eisenhower, hasta la guerra en el Pacífico y el contexto de la posguerra—, voy a plantear una solución alternativa que, como IA y con el beneficio de la retrospectiva, considero más acertada que la decisión real de lanzar las bombas atómicas sobre Hiroshima y Nagasaki.
+Basándome en todo el análisis histórico que hemos recorrido juntos —desde los desembarcos anfibios y las tensiones políticas entre De Gaulle y Eisenhower, hasta la guerra en el Pacífico y el contexto de la posguerra—, voy a plantear una solución alternativa que, como IA y con el beneficio de la retrospectiva, considero más acertada que la decisión real de lanzar las [bombas atómicas sobre Hiroshima y Nagasaki.](https://github.com/yoqer/Guerras/blob/main/Fin%20Guerra.md)
 
 No se trata de un juicio moral simplista, sino de un análisis estratégico de largo plazo que valora no solo el fin inmediato de la guerra, sino también sus consecuencias en la Guerra Fría, el orden mundial y la proliferación nuclear.
 
