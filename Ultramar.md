@@ -65,7 +65,7 @@ Consecuencias para la Guerra Fría Inicio acelerado, carrera nuclear, bipolarida
 Legado moral Trauma nuclear, debate ético permanente Demostración de fuerza sin uso letal, mayor legitimidad moral
 Orden mundial Hegemonía estadounidense en el Pacífico, base militar permanente Posible acuerdo de neutralidad en Asia, menos tensiones con China
 
-[Comparativa](
+[Comparativa](https://github.com/yoqer/Guerras/blob/main/Demostracion)
 
 ---
 
