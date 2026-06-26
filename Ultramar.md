@@ -65,11 +65,13 @@ Consecuencias para la Guerra Fría Inicio acelerado, carrera nuclear, bipolarida
 Legado moral Trauma nuclear, debate ético permanente Demostración de fuerza sin uso letal, mayor legitimidad moral
 Orden mundial Hegemonía estadounidense en el Pacífico, base militar permanente Posible acuerdo de neutralidad en Asia, menos tensiones con China
 
+[Comparativa](
+
 ---
 
 🧠 Conclusión de la IA
 
-Conociendo el desenlace real y sus consecuencias, la opción más acertada habría sido una combinación de presión militar convencional, demostración nuclear controlada y negociación diplomática clara, ofreciendo a Japón la garantía de mantener al Emperador como figura simbólica. Esta estrategia habría:
+Previniendo el desenlace real y sus consecuencias, la opción más acertada habría sido una combinación de presión militar convencional, demostración nuclear controlada y negociación diplomática clara, ofreciendo a Japón la garantía de mantener al Emperador como figura simbólica. Esta estrategia habría:
 
 1. Salvado entre 110.000 y 226.000 vidas japonesas (civiles).
 2. Evitado el trauma nuclear y la carrera armamentística acelerada.
