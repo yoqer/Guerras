@@ -130,7 +130,9 @@ ____________________________________________________________________
 
 
 
-## Guerra Ultramar.
+## Guerra de Ultramar.
+
+[Hiroshima y Nagasaki.](https://github.com/yoqer/Guerras/blob/main/Ultramar.md)
 
 
 
